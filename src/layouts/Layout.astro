@@ -1,54 +1,32 @@
 ---
 import '~/assets/styles/tailwind.css';
 
-import { I18N } from 'astrowind:config';
-
-import CommonMeta from '~/components/common/CommonMeta.astro';
-import Favicons from '~/components/Favicons.astro';
-import CustomStyles from '~/components/CustomStyles.astro';
-import ApplyColorMode from '~/components/common/ApplyColorMode.astro';
-import Metadata from '~/components/common/Metadata.astro';
-import SiteVerification from '~/components/common/SiteVerification.astro';
-import Analytics from '~/components/common/Analytics.astro';
-import BasicScripts from '~/components/common/BasicScripts.astro';
-
-// Comment the line below to disable View Transitions
+import { Icon } from 'astro-icon/components';
 import { ViewTransitions } from 'astro:transitions';
+import Section from '../components/Section.astro';
 
-import type { MetaData as MetaDataType } from '~/types';
-
-export interface Props {
-  metadata?: MetaDataType;
+interface Props {
+  lang: string;
 }
-
-const { metadata = {} } = Astro.props;
-const { language, textDirection } = I18N;
+const { lang } = Astro.props;
 ---
 
 <!doctype html>
-<html lang={language} dir={textDirection} class="2xl:text-[20px]">
+<html lang={lang} dir='auto'>
   <head>
-    <CommonMeta />
-    <Favicons />
-    <CustomStyles />
-    <ApplyColorMode />
-    <Metadata {...metadata} />
-    <SiteVerification />
-    <Analytics />
-
-    <!-- Comment the line below to disable View Transitions -->
-    <ViewTransitions fallback="swap" />
+    <meta charset='UTF-8' />
+    <ViewTransitions fallback='swap' />
   </head>
 
-  <body class="antialiased text-default bg-page tracking-tight">
+  <body
+    class='antialiased text-default bg-b1 flex flex-col items-center justify-center'
+  >
+    <Section inner='items-start py-4' outer='bg-b2 sticky top-0 shadow-xl'>
+      <div class='flex items-center gap-2'>
+        <Icon name='logo' class='w-12 h-12' />
+        <h1 class='text-4xl font-bold text-p1'>waha</h1>
+      </div>
+    </Section>
     <slot />
-
-    <BasicScripts />
-
-    <style is:global>
-      img {
-        content-visibility: auto;
-      }
-    </style>
   </body>
 </html>

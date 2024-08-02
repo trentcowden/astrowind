@@ -1,0 +1,71 @@
+{
+  "download": {
+    "benefits": {
+      "benefit_1": {
+        "description": "O aplicativo facilita toda a aula para você, tornando-a simples e conveniente.",
+        "title": "Construir amizades fortes"
+      },
+      "benefit_2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Torne sua comunidade melhor"
+      },
+      "benefit_3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Discutir coisas"
+      }
+    },
+    "cta": {
+      "subtitle": "Cumprir seu chamado para fazer discípulos de Jesus",
+      "title": "Baixe o aplicativo de estudo bíblico Waha Discovery"
+    },
+    "hero": {
+      "subtitle": "Facilmente facilitar um Estudo Bíblico de Descoberta ou um Treinamento de Formação de Discípulos",
+      "title": "Basta pressionar play e discutir para começar a descobrir Deus"
+    },
+    "how_it_works": {
+      "step_1": {
+        "description": "Convide um grupo de (2 ou mais) amigos ou familiares para estudar a palavra de Deus com você na sala de estar, no parque ou em um café.",
+        "title": "Reunir"
+      },
+      "step_2": {
+        "description": "O aplicativo facilitará toda a reunião para o seu grupo. Sempre que uma pergunta for feita, basta pausar o áudio e discuti-la.",
+        "title": "Pressione Play"
+      },
+      "step_3": {
+        "description": "A Waha nunca lhe dirá em que acreditar, simplesmente permitimos que você leia as escrituras por si mesmo e aplique as verdades de Deus à sua vida!",
+        "title": "Descobrir"
+      },
+      "subtitle": "Com o Waha App, você pode facilmente convidar seus amigos para participarem de um Estudo Bíblico Discovery. O aplicativo facilita toda a lição para você, tornando-a simples e conveniente.",
+      "title": "Como funciona"
+    },
+    "testimonials": {
+      "subtitle": "4,9 na classificação de 127 avaliações",
+      "testimonial_1": {
+        "author": "John Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "testimonial_2": {
+        "author": "Jane Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_3": {
+        "author": "John Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_4": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_5": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_6": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "title": "O que as pessoas estão dizendo sobre a Waha"
+    },
+    "use_web_app": "Ou use o aplicativo da web Waha"
+  }
+}

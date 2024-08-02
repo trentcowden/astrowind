@@ -1,0 +1,71 @@
+{
+  "download": {
+    "benefits": {
+      "benefit_1": {
+        "description": "يعمل التطبيق على تسهيل الدرس بأكمله لك، مما يجعله بسيطاً ومريحاً.",
+        "title": "بناء صداقات قوية"
+      },
+      "benefit_2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat.",
+        "title": "اجعل مجتمعك أفضل"
+      },
+      "benefit_3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat.",
+        "title": "ناقش الأمور"
+      }
+    },
+    "cta": {
+      "subtitle": "حققوا دعوتكم لتلاميذ يسوع",
+      "title": "قم بتنزيل تطبيق واحة ديسكفري لدراسة الكتاب المقدس"
+    },
+    "hero": {
+      "subtitle": "سهولة تيسير دراسة الكتاب المقدس الاستكشافية أو التدريب على صنع التلاميذ",
+      "title": "فقط اضغط على تشغيل وناقش لتبدأ في اكتشاف الله"
+    },
+    "how_it_works": {
+      "step_1": {
+        "description": "ادعُ مجموعة من (2 أو أكثر) من الأصدقاء أو أفراد العائلة لدراسة كلمة الله معك في غرفة المعيشة أو الحديقة أو المقهى.",
+        "title": "اجمع"
+      },
+      "step_2": {
+        "description": "سيقوم التطبيق بتسهيل الاجتماع بأكمله لمجموعتك. كلما طُرح سؤال، ما عليك سوى إيقاف الصوت مؤقتاً ومناقشته.",
+        "title": "اضغط تشغيل"
+      },
+      "step_3": {
+        "description": "لن تملي عليك الواحة أبدًا ما تؤمن به، نحن ببساطة نسمح لك بقراءة الكتاب المقدس بنفسك وتطبيق حقائق الله في حياتك!",
+        "title": "اكتشف"
+      },
+      "subtitle": "مع تطبيق واحة، يمكنك بسهولة دعوة أصدقائك للانضمام إليك في دراسة اكتشاف الكتاب المقدس. يسهل التطبيق الدرس بأكمله لك، مما يجعله بسيطًا ومريحًا.",
+      "title": "كيف تعمل"
+    },
+    "testimonials": {
+      "subtitle": "4.9 تقييم 4.9 من أصل 127 تقييم",
+      "testimonial_1": {
+        "author": "جون دو",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "testimonial_2": {
+        "author": "جين دو",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_3": {
+        "author": "جون سميث",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_4": {
+        "author": "جين سميث",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_5": {
+        "author": "جين سميث",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_6": {
+        "author": "جين سميث",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdolor nulla, ut commodo diam libero vitae erat."
+      },
+      "title": "ما يقوله الناس عن Waha"
+    },
+    "use_web_app": "أو استخدم تطبيق Waha على الويب"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "download": {
+    "benefits": {
+      "benefit_1": {
+        "description": "L'application facilite l'ensemble de la leçon pour vous, ce qui la rend simple et pratique.",
+        "title": "Construire des amitiés solides"
+      },
+      "benefit_2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Améliorez votre communauté"
+      },
+      "benefit_3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Discuter des choses"
+      }
+    },
+    "cta": {
+      "subtitle": "Remplir votre appel à faire des disciples de Jésus",
+      "title": "Télécharger l'application d'étude biblique Waha Discovery"
+    },
+    "hero": {
+      "subtitle": "Faciliter l'organisation d'une étude biblique de découverte ou d'une formation à la formation de disciple",
+      "title": "Il suffit d'appuyer sur play et de discuter pour commencer à découvrir Dieu"
+    },
+    "how_it_works": {
+      "step_1": {
+        "description": "Invitez un groupe de (2 ou plus) amis ou membres de votre famille à étudier la parole de Dieu avec vous dans votre salon, dans un parc ou dans un café.",
+        "title": "Rassembler"
+      },
+      "step_2": {
+        "description": "L'application animera l'ensemble de la réunion pour votre groupe. Chaque fois qu'une question est posée, il suffit de mettre l'audio en pause et d'en discuter.",
+        "title": "Appuyer sur Play"
+      },
+      "step_3": {
+        "description": "Waha ne vous dira jamais ce qu'il faut croire, nous vous permettons simplement de lire les Ecritures par vous-même et d'appliquer les vérités de Dieu à votre vie !",
+        "title": "Découvrir"
+      },
+      "subtitle": "Avec l'application Waha, vous pouvez facilement inviter vos amis à vous rejoindre dans une étude biblique de découverte. L'application facilite l'ensemble de la leçon pour vous, ce qui la rend simple et pratique.",
+      "title": "Comment cela fonctionne-t-il ?"
+    },
+    "testimonials": {
+      "subtitle": "4,9 sur 127 avis",
+      "testimonial_1": {
+        "author": "Jean Dupont",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "testimonial_2": {
+        "author": "Jane Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_3": {
+        "author": "John Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_4": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_5": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_6": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "title": "Ce que les gens disent de Waha"
+    },
+    "use_web_app": "Ou utiliser l'application web Waha"
+  }
+}

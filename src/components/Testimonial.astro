@@ -1,0 +1,29 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  testimonial?: string;
+  name?: string;
+  job?: string;
+}
+const { testimonial, name, job } = Astro.props;
+---
+
+<div class='card gap-4 py-8 h-auto'>
+  <div class='flex gap-1'>
+    <Icon name='star' class='text-p1' />
+    <Icon name='star' class='text-p1' />
+    <Icon name='star' class='text-p1' />
+    <Icon name='star' class='text-p1' />
+    <Icon name='star' class='text-p1' />
+  </div>
+  {
+    testimonial && (
+      <blockquote>
+        <p class='text-f1'>"{testimonial}"</p>
+      </blockquote>
+    )
+  }
+  {name && <p class='font-bold'>{name}</p>}
+  {job && <p class='text-xs'>{job}</p>}
+</div>

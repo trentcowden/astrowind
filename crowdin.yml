@@ -1,0 +1,126 @@
+#
+# Your Crowdin credentials
+#
+'project_id': '698737'
+'api_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGljbVV5VCIsImp0aSI6ImNhNmVjZjljNGRjYzQ3Nzk5ODZjODFkMGYyZmJiOWRlMGE4MWU3MzA4ZmRmYWI1YzBkYWJkMGRkMWYyMTIxNWJlMDc4Y2VhZTgyZmVlNjc1IiwiaWF0IjoxNzIyMDI0OTIxLjUyMTczNiwibmJmIjoxNzIyMDI0OTIxLjUyMTczOCwiZXhwIjoxNzUzNTYwOTIxLjQ1MjgyMSwic3ViIjoiMTU1MzU5MTciLCJzY29wZXMiOlsicHJvamVjdCJdLCJkb21haW4iOm51bGwsImFzc29jaWF0aW9ucyI6WyIqIl0sInNlc3Npb24iOjB9.Gy3CmVu0xxby648ef7QZF79yn_JPl6BfXS0j8eqncI0AHnoeFqye3nCKUNtHcgMNa1z6-h-lajf01lhBGb_xt5rxr1Y6d2-pNn_5dlnmYAirv1fX4kWsdq8I0e0pTnx9I9daEQ5Ecn3MeqWwnOzrUzAyB4UL5O6R_hMXQTQo04H_U08i8v2bY9mUG9kPRgt7oKR7okRPKVFjFbFk76q2tP6FscgKfzTzXLWxFOAJIbmIBqV9kizR7uwOUfKh70nYDv4pQPECpRi6djt7S4htlu96QGXKv0SHD6-gen036AtvPrGVMDcagswNu0LKNlFp4BUvtMUEgacjoEDt6_PgxzgtxG_U-Lh69sMZcGN3VaE28uQN7SrOHe67VbDwg5XyRa7rqggevtxM7Ufrp1pVeENOhzoyps6CI4gQ7R0P_Ikd57nNFW7EEV0vLirEsDwcVCgLI67miBEBdblLG248dDKzYX--1T69ZRrCixRQSoKBBoGPjBCr7v3ahz3bLZrlC5v_ZhV1RmLWlqOZe3HK0jVBQvbx7DOXvpsouGwhYwsbFNZjBk9YiwcP0CoSeY7MGfrQpV1_6FgJATcNhWRZd__OHsmCQVllXHVLdxyTMBSSoob5O4H5SJCtYd12QeHqnqh84CShQDeK1lR8Fmi770yOjbxoJAop894F_asYcbU'
+'base_path': '.'
+'base_url': 'https://api.crowdin.com'
+
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+'preserve_hierarchy': false
+
+#
+# Files configuration
+#
+files: [
+    {
+      #
+      # Source files filter
+      # e.g. "/resources/en/*.json"
+      #
+      'source': '/public/locales/en/*.json',
+
+      #
+      # Where translations will be placed
+      # e.g. "/resources/%two_letters_code%/%original_file_name%"
+      #
+      'translation': '/public/locales/%two_letters_code%/%original_file_name%',
+      #
+      # Files or directories for ignore
+      # e.g. ["/**/?.txt", "/**/[0-9].txt", "/**/*\?*.txt"]
+      #
+      #"ignore" : [],
+
+      #
+      # The dest allows you to specify a file name in Crowdin
+      # e.g. "/messages.json"
+      #
+      #"dest" : "",
+
+      #
+      # File type
+      # e.g. "json"
+      #
+      #"type" : "",
+
+      #
+      # The parameter "update_option" is optional. If it is not set, after the files update the translations for changed strings will be removed. Use to fix typos and for minor changes in the source strings
+      # e.g. "update_as_unapproved" or "update_without_changes"
+      #
+      #"update_option" : "",
+
+      #
+      # Start block (for XML only)
+      #
+
+      #
+      # Defines whether to translate tags attributes.
+      # e.g. 0 or 1  (Default is 1)
+      #
+      # "translate_attributes" : 1,
+
+      #
+      # Defines whether to translate texts placed inside the tags.
+      # e.g. 0 or 1 (Default is 1)
+      #
+      # "translate_content" : 1,
+
+      #
+      # This is an array of strings, where each item is the XPaths to DOM element that should be imported
+      # e.g. ["/content/text", "/content/text[@value]"]
+      #
+      # "translatable_elements" : [],
+
+      #
+      # Defines whether to split long texts into smaller text segments
+      # e.g. 0 or 1 (Default is 1)
+      #
+      # "content_segmentation" : 1,
+
+      #
+      # End block (for XML only)
+      #
+
+      #
+      # Start .properties block
+      #
+
+      #
+      # Defines whether single quote should be escaped by another single quote or backslash in exported translations
+      # e.g. 0 or 1 or 2 or 3 (Default is 3)
+      # 0 - do not escape single quote;
+      # 1 - escape single quote by another single quote;
+      # 2 - escape single quote by backslash;
+      # 3 - escape single quote by another single quote only in strings containing variables ( {0} ).
+      #
+      # "escape_quotes" : 3,
+
+      #
+      # Defines whether any special characters (=, :, ! and #) should be escaped by backslash in exported translations.
+      # e.g. 0 or 1 (Default is 0)
+      # 0 - do not escape special characters
+      # 1 - escape special characters by a backslash
+      #
+      # "escape_special_characters": 0
+      #
+
+      #
+      # End .properties block
+      #
+
+      #
+      # Does the first line contain header?
+      # e.g. true or false
+      #
+      #"first_line_contains_header" : true,
+
+      #
+      # for spreadsheets
+      # e.g. "identifier,source_phrase,context,uk,ru,fr"
+      #
+      # "scheme" : "",
+    },
+  ]

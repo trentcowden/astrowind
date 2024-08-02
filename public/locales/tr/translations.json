@@ -1,0 +1,71 @@
+{
+  "download": {
+    "benefits": {
+      "benefit_1": {
+        "description": "Uygulama, tüm dersi sizin için kolaylaştırarak basit ve kullanışlı hale getirir.",
+        "title": "Güçlü arkadaşlıklar kurun"
+      },
+      "benefit_2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Topluluğunuzu daha iyi hale getirin"
+      },
+      "benefit_3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Bir şeyleri tartışmak"
+      }
+    },
+    "cta": {
+      "subtitle": "İsa'nın öğrencilerini yetiştirme çağrınızı yerine getirin",
+      "title": "Waha Discovery İncil çalışma uygulamasını indirin"
+    },
+    "hero": {
+      "subtitle": "Bir Keşif Kutsal Kitap Çalışmasını veya Öğrenci Yetiştirme Eğitimini kolayca kolaylaştırın",
+      "title": "Tanrı'yı keşfetmeye başlamak için sadece oynat ve tartış düğmesine basın"
+    },
+    "how_it_works": {
+      "step_1": {
+        "description": "Bir grup (2 ya da daha fazla) arkadaşınızı ya da aile üyenizi oturma odanızda, parkta ya da bir kafede sizinle birlikte Tanrı'nın sözünü çalışmaya davet edin.",
+        "title": "Toplanın"
+      },
+      "step_2": {
+        "description": "Uygulama, grubunuz için tüm toplantıyı kolaylaştıracaktır. Bir soru sorulduğunda, sesi duraklatın ve tartışmaya başlayın.",
+        "title": "Oynat'a Basın"
+      },
+      "step_3": {
+        "description": "Waha size asla neye inanmanız gerektiğini söylemez, biz sadece kutsal yazıları kendiniz için okumanıza ve Tanrı'nın gerçeklerini hayatınıza uygulamanıza izin veriyoruz!",
+        "title": "Keşfedin"
+      },
+      "subtitle": "Waha Uygulaması ile arkadaşlarınızı Keşif Kutsal Kitap Çalışmasında size katılmaları için kolayca davet edebilirsiniz. Uygulama tüm dersi sizin için kolaylaştırır, basit ve kullanışlı hale getirir.",
+      "title": "Nasıl çalışır"
+    },
+    "testimonials": {
+      "subtitle": "127 değerlendirme üzerinden 4,9 puan",
+      "testimonial_1": {
+        "author": "John Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "testimonial_2": {
+        "author": "Jane Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_3": {
+        "author": "John Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_4": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_5": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_6": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "title": "İnsanlar Waha hakkında ne diyor?"
+    },
+    "use_web_app": "Veya Waha web uygulamasını kullanın"
+  }
+}

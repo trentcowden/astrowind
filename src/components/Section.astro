@@ -1,0 +1,23 @@
+---
+import { twMerge } from 'tailwind-merge';
+
+interface Props {
+  inner?: string;
+  outer?: string;
+}
+const { inner, outer } = Astro.props;
+---
+
+<section
+  class={twMerge('flex flex-col items-center justify-center w-full', outer)}
+>
+  <div
+    class={twMerge(
+      `w-full max-w-5xl flex flex-col items-center justify-center mx-auto px-4 md:px-8
+      py-24`,
+      inner
+    )}
+  >
+    <slot />
+  </div>
+</section>

@@ -1,0 +1,71 @@
+{
+  "download": {
+    "benefits": {
+      "benefit_1": {
+        "description": "Приложение облегчает вам весь урок, делая его простым и удобным.",
+        "title": "Создавайте крепкие дружеские отношения"
+      },
+      "benefit_2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Сделайте свое сообщество лучше"
+      },
+      "benefit_3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Обсудите вещи"
+      }
+    },
+    "cta": {
+      "subtitle": "Исполнить свое призвание - делать учеников Иисуса",
+      "title": "Загрузите приложение для изучения Библии Waha Discovery"
+    },
+    "hero": {
+      "subtitle": "Легко организовать библейское исследование Discovery или тренинг по подготовке учеников",
+      "title": "Просто нажмите кнопку \"Играть и обсуждать\", чтобы начать познавать Бога."
+    },
+    "how_it_works": {
+      "step_1": {
+        "description": "Пригласите группу (2 или более) друзей или членов семьи изучать Божье Слово вместе с вами в вашей гостиной, парке или кафе.",
+        "title": "Соберите"
+      },
+      "step_2": {
+        "description": "Приложение будет сопровождать всю встречу вашей группы. Когда задается вопрос, просто приостановите аудиозапись и обсудите его.",
+        "title": "Нажмите кнопку \"Воспроизвести"
+      },
+      "step_3": {
+        "description": "Waha никогда не будет говорить вам, во что верить, мы просто дадим вам возможность самим читать Священное Писание и применять Божьи истины в своей жизни!",
+        "title": "Откройте для себя"
+      },
+      "subtitle": "С помощью приложения Waha вы можете легко пригласить своих друзей присоединиться к изучению Библии Discovery. Приложение облегчит вам весь урок, сделав его простым и удобным.",
+      "title": "Как это работает"
+    },
+    "testimonials": {
+      "subtitle": "4.9 рейтинг из 127 отзывов",
+      "testimonial_1": {
+        "author": "Неизвестный",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "testimonial_2": {
+        "author": "Джейн Доу",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_3": {
+        "author": "Джон Смит",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_4": {
+        "author": "Джейн Смит",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_5": {
+        "author": "Джейн Смит",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_6": {
+        "author": "Джейн Смит",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "title": "Что люди говорят о Вахе"
+    },
+    "use_web_app": "Или воспользуйтесь веб-приложением Waha."
+  }
+}

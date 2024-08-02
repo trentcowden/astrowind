@@ -1,0 +1,71 @@
+{
+  "download": {
+    "benefits": {
+      "benefit_1": {
+        "description": "The app facilitates the entire lesson for you, making it simple and convenient.",
+        "title": "Build strong friendships"
+      },
+      "benefit_2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Make your community better"
+      },
+      "benefit_3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "title": "Discuss things"
+      }
+    },
+    "cta": {
+      "subtitle": "Fulfill your calling to make disciples of Jesus",
+      "title": "Download the Waha Discovery bible study app"
+    },
+    "hero": {
+      "subtitle": "Easily facilitate a Discovery Bible Study or Disciple Making Training",
+      "title": "Just press play & discuss to start discovering God"
+    },
+    "how_it_works": {
+      "step_1": {
+        "description": "Invite a group of (2 or more) friends or family members to study God’s word with you in your living room, park, or a cafe.",
+        "title": "Gather"
+      },
+      "step_2": {
+        "description": "The app will facilitate the entire meeting for your group. Whenever a question is asked, simply pause the audio and discuss it.",
+        "title": "Press Play"
+      },
+      "step_3": {
+        "description": "Waha will never tell you what to believe, we simply allow you to read scripture for yourself and to apply God’s truths to your life!",
+        "title": "Discover"
+      },
+      "subtitle": "With the Waha App, you can easily invite your friends to join you in a Discovery Bible Study. The app facilitates the entire lesson for you, making it simple and convenient.",
+      "title": "How it works"
+    },
+    "testimonials": {
+      "subtitle": "4.9 rating out of 127 reviews",
+      "testimonial_1": {
+        "author": "John Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "testimonial_2": {
+        "author": "Jane Doe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_3": {
+        "author": "John Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_4": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_5": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "testimonial_6": {
+        "author": "Jane Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      },
+      "title": "What people are saying about Waha"
+    },
+    "use_web_app": "Or use the Waha web app"
+  }
+}

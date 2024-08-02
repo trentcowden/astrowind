@@ -1,0 +1,166 @@
+---
+import { Icon } from 'astro-icon/components';
+import Section from '~/components/Section.astro';
+import Layout from '~/layouts/Layout.astro';
+import en from '../../public/locales/en/translations.json';
+import Testimonial from '../components/Testimonial.astro';
+interface Props {
+  lang: string;
+  translations: typeof en;
+}
+const { lang, translations } = Astro.props;
+---
+
+<Layout lang={lang}>
+  <div class='w-full flex flex-col'>
+    <Section
+      outer="bg-[url('/src/assets/images/hero.jpg')] bg-no-repeat bg-f1 bg-opacity-60 bg-blend-darken h-svh"
+    >
+      <div class='flex flex-col gap-4 items-center justify-center mb-8'>
+        <h2 class='text-center text-4xl text-op font-bold'>
+          {translations.download.hero.title}
+        </h2>
+        <p class='text-center text-xl text-op'>
+          {translations.download.hero.subtitle}
+        </p>
+      </div>
+      <div class='flex flex-row gap-4 items-center justify-center mb-4'>
+        <a
+          href='https://apps.apple.com/us/app/waha-discovery-bible-study/id1530116294'
+          ><Icon class='w-60 h-20' name={`apple_${lang}`} /></a
+        >
+        <a
+          href='https://play.google.com/store/apps/details?id=com.kingdomstrategies.waha'
+          ><Icon class='w-60 h-20' name={`google_${lang}`} /></a
+        >
+      </div>
+      <a
+        href='https://web.waha.app'
+        class='text-op font-bold flex items-center gap-2 text-lg underline'
+      >
+        <Icon name='laptop' />
+        {translations.download.use_web_app}
+      </a>
+    </Section>
+    <Section outer='bg-b2'>
+      <h2 class='text-4xl font-bold mb-8'>
+        {translations.download.how_it_works.title}
+      </h2>
+      <p class='text-center mb-16'>
+        {translations.download.how_it_works.subtitle}
+      </p>
+      <div class='flex flex-col md:flex-row gap-12 w-full'>
+        {
+          [
+            [
+              translations.download.how_it_works.step_1.title,
+              translations.download.how_it_works.step_1.description,
+            ],
+            [
+              translations.download.how_it_works.step_2.title,
+              translations.download.how_it_works.step_2.description,
+            ],
+            [
+              translations.download.how_it_works.step_3.title,
+              translations.download.how_it_works.step_3.description,
+            ],
+          ].map(([title, description]) => (
+            <div class='flex flex-col flex-1 items-center justify-start'>
+              <Icon name='home' class='w-6 h-6 text-p1 mb-2' />
+              <h3 class='text-xl font-bold mb-4 text-center'>{title}</h3>
+              <p class='text-center'>{description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </Section>
+    <Section inner='gap-12'>
+      {
+        [
+          [
+            translations.download.benefits.benefit_1.title,
+            translations.download.benefits.benefit_1.description,
+          ],
+          [
+            translations.download.benefits.benefit_2.title,
+            translations.download.benefits.benefit_2.description,
+          ],
+          [
+            translations.download.benefits.benefit_3.title,
+            translations.download.benefits.benefit_3.description,
+          ],
+        ].map(([title, description]) => (
+          <div class='flex sm:flex-row flex-col gap-12 items-center w-full'>
+            <img class='w-64 h-64' />
+            <div class='flex flex-col flex-1'>
+              <h3 class='text-2xl font-bold mb-4'>{title}</h3>
+              <p>{description}</p>
+            </div>
+          </div>
+        ))
+      }
+    </Section>
+    <!-- Testimonials. -->
+    <Section outer='bg-p1'>
+      <h2 class='text-4xl font-bold mb-8 text-op'>
+        {translations.download.testimonials.title}
+      </h2>
+      <h2 class='text-2xl mb-16 text-op'>
+        {translations.download.testimonials.subtitle}
+      </h2>
+      <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full'>
+        <Testimonial
+          testimonial={translations.download.testimonials.testimonial_1.text}
+          name={translations.download.testimonials.testimonial_1.author}
+        />
+        <Testimonial
+          testimonial={translations.download.testimonials.testimonial_2.text}
+          name={translations.download.testimonials.testimonial_2.author}
+        />
+        <Testimonial
+          testimonial={translations.download.testimonials.testimonial_3.text}
+          name={translations.download.testimonials.testimonial_3.author}
+        />
+        <Testimonial
+          testimonial={translations.download.testimonials.testimonial_4.text}
+          name={translations.download.testimonials.testimonial_4.author}
+        />
+        <Testimonial
+          testimonial={translations.download.testimonials.testimonial_5.text}
+          name={translations.download.testimonials.testimonial_5.author}
+        />
+        <Testimonial
+          testimonial={translations.download.testimonials.testimonial_6.text}
+          name={translations.download.testimonials.testimonial_6.author}
+        />
+      </div>
+    </Section>
+    <Section>
+      <div class='card bg-p1 w-full items-center'>
+        <h2 class='font-bold text-op text-3xl text-center mb-4'>
+          {translations.download.cta.title}
+        </h2>
+        <h3 class='text-op text-xl mb-12'>
+          {translations.download.cta.subtitle}
+        </h3>
+        <div class='flex flex-row gap-4 items-center justify-center mb-4'>
+          <a
+            href='https://apps.apple.com/us/app/waha-discovery-bible-study/id1530116294'
+            ><Icon class='w-48 h-16' name={`apple_${lang}`} /></a
+          >
+          <a
+            href='https://play.google.com/store/apps/details?id=com.kingdomstrategies.waha'
+            ><Icon class='w-48 h-16' name={`google_${lang}`} /></a
+          >
+        </div>
+        <a
+          href='https://web.waha.app'
+          class='text-op font-bold flex items-center gap-2 text-lg underline'
+        >
+          <Icon name='laptop' />
+          {translations.download.use_web_app}
+        </a>
+      </div>
+    </Section>
+  </div>
+</Layout>
